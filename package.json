@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/whawari/feedbackCollectionServer/issues"
   },
-  "homepage": "https://github.com/whawari/feedbackCollectionServer#readme"
+  "homepage": "https://github.com/whawari/feedbackCollectionServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
