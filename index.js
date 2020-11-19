@@ -1,5 +1,10 @@
-const express = require("express");
+const express = require('express');
+const passport = require('passport');
+const googleStrategy = require('passport-google-oauth20').Strategy;
+
 const app = express();
+
+passport.use(new googleStrategy());
 
 // route handler with req and res arguments
 app.get("/", (req, res) => {
