@@ -105,3 +105,6 @@ dist
 
 # About heroku text document
 heroku.txt
+
+#keys
+config/keys.js
