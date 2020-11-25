@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # About heroku text document
-heroku.txt
+information.txt
 
 #keys
 config/keys.js
